@@ -1,0 +1,441 @@
+/*Panels styling*/
+.container{
+  width:100%;
+  padding:0;
+}
+
+.selection_panel {
+  height:800px;
+  padding:0;
+  overflow:auto;
+  border:0.5px solid black;
+}
+
+.estimate_panel {
+  height:800px;
+  padding:0px;
+  margin-right:0;
+  border:0.1px solid black;
+}
+
+.selected_panel {
+  height:350px;
+  margin:0;
+  overflow:auto;
+  border:0.1px solid black;
+}
+
+.category{
+  margin-left:3%;
+}
+
+.dividing_line{
+  width:90%;
+  height:1px;
+  background-color:#999;
+}
+
+.all_options{
+  margin-left:-1%;
+}
+
+/*Estimate Total Styling*/
+.total{
+  background-color:;
+  height:20%;
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%;
+  border:1px solid #333;
+  border-radius:20px;
+}
+  .total h2 {
+    text-align:center;
+    }
+  .total h1 {
+    text-align:center;
+    color:#00668b;
+    font-weight:bold;
+    }
+
+/*Fake Button Styling*/
+
+.plus_button {
+  position:relative;
+  display:inline-block;
+  margin-top:-13px;
+  float:right;
+  margin-right:-13px;
+  cursor:pointer;
+  padding-top:6.5px;
+  padding-left:6.5px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color:#00b300;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.15);
+  border:0.05px solid #DCDCDC;
+}
+
+.plus_button:hover{
+  background-color:#009900;
+}
+
+.plus_button:active {
+  box-shadow: 0px 0px #717a33;
+  background-color: #006600;
+}
+
+.plus {
+  width: 21px;
+  height: 21px;
+  margin:0;
+  background: linear-gradient(to bottom, transparent 35%, #ffffff 35%, #ffffff 65%,  transparent 65%),
+    linear-gradient(to right, transparent 35%, #ffffff 35%, #ffffff 65%, transparent 65%);
+}
+
+.selection_delete_button{
+  position:relative;
+  margin-top:-13px;
+  float:right;
+  margin-right:-13px;
+  cursor:pointer;
+  padding-top:14px;
+  padding-left:8px;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color:#ff3333;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.15);
+  border:0.05px solid #DCDCDC;
+}
+
+.selection_delete_button:hover {
+  background-color: #ff1a1a;
+}
+
+.selection_delete_button:active {
+  box-shadow: 0px 0px #717a33;
+  background-color:#b30000;
+}
+
+  .selection_minus {
+    width:18px;
+    height:6px;
+    background-color:#e6e6e6;
+}
+
+.delete_button{
+  cursor:pointer;
+  margin-top:6px;
+  padding-top:10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color:#ff3333;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.15);
+  display:inline-block;
+}
+
+.delete_button:hover {
+  background-color: #ff1a1a;
+}
+
+.delete_button:active {
+  box-shadow: 0px 0px #717a33;
+  background-color:#b30000;
+}
+
+  .minus {
+    width:13px;
+    height:5px;
+    margin-left:6px;
+    padding:0;
+    background-color:#e6e6e6;
+}
+
+/*Selection Box Styling*/
+.selection_box {
+  width:250px;
+  height:230px;
+  margin-top:30px;
+  margin-left:30px;
+  margin-bottom:30px;
+  padding:0px;
+  float:left;
+  clear:right;
+  background-image:url(http://lorempixel.com/250/200/city/)
+}
+
+.title{
+  background-color:rgba(0, 0, 0,0.2);
+}
+  .title h2{
+    margin:0;
+    text-align:left;
+    padding:5px;
+    color:white;
+    font-size:20px;
+  }
+
+.default_title{
+  background-color:rgba(0, 0, 0,0.2);
+}
+  .default_title h2{
+    margin:0;
+    text-align:left;
+    padding:5px;
+    color:white;
+    font-size:20px;
+  }
+
+  /*Javascript Toggle Styling*/
+  .active {
+    display:block;
+  }
+
+  .non_active {
+    display:none;
+  }
+
+  /*Price box styling*/
+  .prices{
+    position:relative;
+    margin-top:160px;
+    margin-left:0;
+    padding:0;
+    width:100%;
+    height:40px;
+    background-color:#ffffff;
+  }
+
+  .price_options input {
+      position: absolute !important;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      width: 1px;
+      border: 0;
+      overflow: hidden;
+  }
+
+  .price_options label {
+    float: left;
+  }
+
+  .price_options label {
+    display: inline-block;
+    width: 83.3333px;
+    background-color: #e4e4e4;
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    padding: 6px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    transition:         all 0.1s ease-in-out;
+  }
+
+  .price_options label:hover {
+  	cursor: pointer;
+  	background-color:rgba(0, 102, 139,0.1)
+  }
+
+  .price_options input:checked + label {
+    background-color: #00668b;
+  	color:#ffffff;
+  }
+
+/*Background Images*/
+    #s_1 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_1 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_1 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_2 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_2 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_2 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+
+    #s_3 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_3 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_3 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_4 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_4 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_4 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_5 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_5 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_5 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_6 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_6 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_6 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_7 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_7 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_7 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_8 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_8 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_8 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_9 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_9 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_9 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_10 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_10 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_10 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_11 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_11 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_11 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_12 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_12 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_12 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+    #s_13 {
+      background-image:url(http://lorempixel.com/250/200/people/);
+    }
+
+    #m_13 {
+      background-image:url(http://lorempixel.com/250/200/sports/);
+    }
+
+    #l_13 {
+      background-image:url(http://lorempixel.com/250/200/city/);
+    }
+
+/*Selected Box Styling*/
+.selected_box {
+  margin-left:5%;
+  margin-top:5%;
+  width:250px;
+  height:40px;
+
+  padding-left:5px;
+  background-color:rgba(143, 181, 233,0.2);
+  float:left;
+  clear:right;
+  border:0.5px solid grey;
+
+}
+
+.selected_title{
+  width:130px;
+  height:100%;
+  display:inline-block;
+}
+  .selected_title p{
+     font-size:14px;
+     font-weight:bold;
+     line-height:280%;
+     margin-left:7px;
+  }
+
+.selected_price{
+  width:88px;
+  height:100%;
+  background-color:#00668b;
+    display:inline-block;
+}
+
+  .selected_price p{
+    padding-left:8px;
+    text-align:left;
+    color:#ffffff;
+    font-size:14px;
+    font-weight:bold;
+    line-height:280%;
+    margin-left:15%;
+  }
